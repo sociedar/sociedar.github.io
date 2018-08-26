@@ -1,0 +1,23 @@
+#box{
+  background-color: white;
+  width: 68%;
+  border: none;
+  text-align: left;
+  margin: 2%;
+}
+
+@font-face{
+    font-family: Bebas;
+    src: url(fonts/BebasNeue.otf);
+}
+
+h2 {
+    font-family: Bebas;
+}
+
+
+.log-in-form {
+  border: 1px solid #cacaca;
+  padding: 1rem;
+  border-radius: 0;
+}

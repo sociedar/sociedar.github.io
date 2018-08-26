@@ -1,0 +1,238 @@
+<!doctype html>
+<html class="no-js" lang="es" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociedar</title>
+      <link rel="icon" href="src/imago.png">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+
+   <div class="sticky" data-sticky data-margin-top="0" data-anchor="example1">
+
+            <div class="top-bar" id="example-menu" style="font-family: Bebas">
+                <a href="index.html"><img src="src/logo.png" width="200px"></a>
+              <div class="top-bar-left">
+                <ul class="menu" data-dropdown-menu>
+                        
+                        <li><a href="index.html"><font color="#2EAC66" >Página Principal</font></a></li>
+                        <li><a href="index.html#anchor"><font color="#2EAC66" >Categorías</font></a></li>
+                        <li><a href="profile.html"><font color="#2EAC66" >Mi Perfil</font></a></li>
+                        </ul>
+                      </div>
+                <div class="top-bar-right">
+                    <ul class="menu">
+                        <li><button class="success button" onclick="location.href='login.html';">Entrar</button></li>
+                        <li><button class="success button" onclick="location.href='register.html';">Registrarse</button></li>
+                        <li><button class="success button" data-open="exampleModal1">Agregar un proyecto</button>
+                        <div class="reveal" id="exampleModal1" data-reveal style="font-family: Bebas">
+                            <form data-abide novalidate>
+                          <div class="row">
+                            <div class="small-12 columns">
+                              <label>Nombre del proyecto
+                                <input type="text"  aria-describedby="exampleHelpText">
+                              </label>
+                            </div>
+                          </div>
+                            <div class="row">
+                            <div class="small-12 columns">
+                              <label>Descripción del proyecto
+                                <input type="text"  aria-describedby="exampleHelpText">
+                              </label>
+                            </div>
+                                <div class="small-12 columns">
+                              <label>Link del proyecto
+                                <input type="text" placeholder="proyecto.com" aria-describedby="exampleHelpText">
+                              </label>
+                            </div>
+                          </div>
+                        <div class="medium-6 columns">
+                          <label>Categoría
+                            <select id="select">
+                              <option value=""></option>
+                              <option>Desarrollo Social</option>
+                                <option>Sustentabilidad</option>
+                                <option>Pobreza</option>
+                                <option>Educación</option>
+                            </select>
+                          </label>
+                        </div>
+                        <div class="medium-6 columns">
+                            <label for="exampleFileUpload" class="success button">Agregar Fotografía</label>
+                            <input type="file" id="exampleFileUpload" class="show-for-sr">
+                        </div>
+                          <div class="grid-x">
+                            <fieldset class="large-6 cell">
+                              <button class="success button" data-close aria-label="Close reveal"  onClick="succesAlert()" value="Reset" type="reset">Enviar</button>
+                                <script>function succesAlert(){
+                                    alert("Se validará el fromulario y se actualizará la base de datos dentro de las próximas 24 horas.");
+                                }</script>
+                            </fieldset>
+                            <fieldset class="large-6 cell">
+                              <button class="success button" type="reset" value="Reset">Limpiar</button>
+                            </fieldset>
+                          </div>
+                        </form>
+                          <button class="close-button" data-close aria-label="Close reveal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div></li>
+                        
+                      <li><input type="search" placeholder="Buscar proyecto"></li>
+                      <li><button type="button" class="success button">Buscar</button></li>
+                    </ul>
+                    </div>
+                </div>
+              </div>
+      
+        <center><div id="box">
+        <div class="media-object">
+          <div class="media-object-section">
+            <a href="https://www.cruzrojamexicana.org.mx/voluntariado">
+				<div class="thumbnail">
+					<img src= "src\g.png" width="140px" height="auto">
+				</div>
+			</a>
+          </div>
+          <div class="media-object-section" wrap>
+		  <div class="card" style="width: 800px;">
+			<div class="card-section" style="font-family: Bebas">
+                <h2>GreenLab</h2>
+                <h2>Proyectos: 3</h2>
+            </div>		
+			</div>
+          </div>
+        </div>
+    </div></center> 
+      
+      
+        <div class="grid-x">
+            <div class="cell medium-4">
+                                <center><div class="card" style="width: 400px;">
+                       <a href="https://www.projects-abroad-la.org/volunteer-projects/conservation-and-environment/volunteer-mexico/">
+                                <img src= "src\img\proyectos\sustentabilidad\sustentable1.jpg" width="400px" height="auto">
+                        </a>
+                        <div class="card-divider">
+                           <a href="https://www.projects-abroad-la.org/volunteer-projects/conservation-and-environment/volunteer-mexico/"><h4><b>Tortugas Marinas y Ecología Costera</b></h4></a>
+                        </div>
+                        <div class="card-section">
+                                <p>Nuestro proyecto de Conservación en México es una oportunidad única para que contribuyas directamente en la protección y preservación de las tortugas marinas.</p>
+                        </div>
+                        <div>
+                            <a class="success button" href="https://www.projects-abroad-la.org/volunteer-projects/conservation-and-environment/volunteer-mexico/">¡Quiero ayudar!</a>
+                            <div class="row">
+                                <button class="button" data-open="exampleModal2">Editar proyecto</button>
+                                <div class="reveal" id="exampleModal2" data-reveal style="font-family: Bebas">
+                            <form data-abide novalidate>
+                          <div class="row">
+                            <div class="small-12 columns">
+                              <label>Nuevo nombre del proyecto
+                                <input type="text" placeholder="Tortugas marinas y ecología costera" aria-describedby="exampleHelpText">
+                              </label>
+                            </div>
+                          </div>
+                            <div class="row">
+                            <div class="small-12 columns">
+                              <label>Nueva descripción del proyecto
+                                <input type="text" placeholder="Nuestro proyecto de Conservación en México es una oportunidad única para que contribuyas directamente en la protección y preservación de las tortugas marinas." aria-describedby="exampleHelpText">
+                              </label>
+                            </div>
+                                <div class="small-12 columns">
+                              <label>Link del proyecto
+                                <input type="text" placeholder="" aria-describedby="exampleHelpText">
+                              </label>
+                            </div>
+                          </div>
+                        <div class="medium-6 columns">
+                          <label>Categoría
+                            <select id="select">
+                              <option value=""></option>
+                              <option>Desarrollo Social</option>
+                                <option>Sustentabilidad</option>
+                                <option>Pobreza</option>
+                                <option>Educación</option>
+                            </select>
+                          </label>
+                        </div>
+                        <div class="medium-6 columns">
+                            <label for="exampleFileUpload" class="success button">Agregar Fotografía</label>
+                            <input type="file" id="exampleFileUpload" class="show-for-sr">
+                        </div>
+                          <div class="grid-x">
+                            <fieldset class="large-6 cell">
+                              <button class="success button" data-close aria-label="Close reveal"  onClick="succesAlert()" value="Reset" type="reset">Enviar</button>
+                                <script>function succesAlert(){
+                                    alert("Se validará el fromulario y se actualizará la base de datos dentro de las próximas 24 horas.");
+                                }</script>
+                            </fieldset>
+                            <fieldset class="large-6 cell">
+                              <button class="success button" type="reset" value="Reset">Limpiar</button>
+                            </fieldset>
+                          </div>
+                        </form>
+                          <button class="close-button" data-close aria-label="Close reveal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                                <button class="alert button">Borrar proyecto</button>
+                            </div>
+                        </div>
+                    </div></center>
+            </div>
+            
+            <div class="cell medium-4">
+                <center><div class="card" style="width: 400px;">
+                       <a href="https://www.projects-abroad-la.org/volunteer-projects/conservation-and-environment/volunteer-mexico/">
+                                <img src= "src\img\proyectos\sustentabilidad\sustentable2.jpg" width="400px" height="auto">
+                        </a>
+                        <div class="card-divider">
+                           <a href="http://www.florafaunaycultura.org/voluntariado-item/2/voluntariado-en-el-vivero/servicios/"><h4><b>VOLUNTARIADO EN EL VIVERO </b></h4></a>
+                        </div>
+                        <div class="card-section">
+                                <p>El Vivero Forestal Riviera Maya ha recibido aprox. 4 voluntarios anuales, los cuales se han involucrado en la producción de plantas nativas de la región, en la recolección de semillas, además del desarrollo de manuales para identificación de las plantas que se producen en el vivero para su venta. </p>
+                        </div>
+                        <div>
+                            <a class="success button" href="http://www.florafaunaycultura.org/voluntariado-item/2/voluntariado-en-el-vivero/servicios/">¡Quiero ayudar!</a>
+                            <div class="row">
+                                <button class="button">Editar proyecto</button>
+                                <button class="alert button">Borrar proyecto</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="cell medium-4">
+                <center><div class="card" style="width: 400px;">
+                       <a href="http://www.florafaunaycultura.org/voluntariado-item/20/voluntariado-en-educacion-ambiental/servicios/">
+                                <img src= "src\img\proyectos\educacion\educacion1.png" width="400px" height="auto">
+                        </a>
+                        <div class="card-divider">
+                           <a href="http://www.florafaunaycultura.org/voluntariado-item/20/voluntariado-en-educacion-ambiental/servicios/"><h4><b>Voluntariado en educación ambiental</b></h4></a>
+                        </div>
+                        <div class="card-section">
+                                <p>En el área de Educación Ambiental se desarrollan diversas actividades donde el servicio social, las prácticas profesionales o el el voluntariado forman parte esencial para cumplir los objetivos del desarrollo de proyectos de educación ambiental que integra a diversos sectores de la sociedad.</p>
+                        </div>
+                        <div>
+                            <a class="success button" href="http://www.florafaunaycultura.org/voluntariado-item/20/voluntariado-en-educacion-ambiental/servicios/">¡Quiero ayudar!</a>
+                            <div class="row">
+                                <button class="button">Editar proyecto</button>
+                                <button class="alert button">Borrar proyecto</button>
+                            </div>
+                        </div>
+                    </div></center>
+            </div>
+        </div>
+      
+      
+      
+      <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
